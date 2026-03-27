@@ -1,8 +1,26 @@
-# Vue 3 + Vite
+# Portafolio
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Portafolio personal desarrollado con Vue 3 y Vite, enfocado en mostrar proyectos reales, habilidades técnicas y experiencia en desarrollo web.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
-# portafolio-dev
-# portafolio-dev
-# portafolio-developer
+## Demo
+
+
+
+## Tecnologías utilizadas
+
+- Vue 3 (Composition API)
+- Vite
+- Vue Router
+- CSS personalizado (responsive)
+- Iconify (logos de tecnologías)
+- Lucide (iconos UI)
+
+## Nota
+
+El uso de elementos visuales inspirados en anime es intencional y está aplicado de forma sutil para aportar identidad sin afectar la profesionalidad del proyecto.
+
+## Contacto
+
+LinkedIn: https://linkedin.com/in/fgonzalezcorrea
+
+Email: [abomdevp@gmail.com](mailto:abomdevp@gmail.com)
