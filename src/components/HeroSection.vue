@@ -12,7 +12,7 @@
 
         <div class="hero-buttons">
           <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
-          <a href="/src/assets/Curriculum-Francisco-Gonzalez.pdf" class="btn btn-secondary" download>
+          <a href="src/assets/CV FRANCISCO ANDRES GONZALEZ CORREA PORTAFOLIO.pdf" class="btn btn-secondary" download>
             <Download :size="18" />
             Descargar CV
           </a>
