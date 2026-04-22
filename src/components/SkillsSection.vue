@@ -1,31 +1,20 @@
 <template>
   <section id="skills" class="section">
     <div class="container">
-      <div class="section-header">
-        <p class="section-kicker">Técnicas Malditas</p>
-        <h2 class="section-title">Tecnologías y herramientas</h2>
+      <div class="section-header skills-header">
+
+        <h2 class="section-title">{{ $t('skills.title') }}</h2>
+        <p class="section-subtitle">{{ $t('skills.subtitle') }}</p>
       </div>
 
-      <div class="skills-wrapper">
-        <div class="skills-groups">
-          <div v-for="group in skillGroups" :key="group.title" class="skills-group-card">
-            <h3>{{ group.title }}</h3>
-
-            <div class="skills-grid">
-              <div v-for="item in group.items" :key="item.name" class="skill-card">
-                <Icon :icon="item.icon" class="skill-icon" />
-                <span>{{ item.name }}</span>
-              </div>
+      <div class="carousel-container">
+        <div class="carousel-track">
+          <div class="carousel-items" v-for="n in 2" :key="n" aria-hidden="true">
+            <div v-for="item in allSkills" :key="item.name + n" class="carousel-item">
+              <Icon :icon="item.icon" class="carousel-icon" />
+              <span class="carousel-text">{{ item.name }}</span>
             </div>
           </div>
-        </div>
-
-        <div class="skills-image-card">
-          <img
-            src="/itadori.png"
-            alt="Imagen decorativa"
-            class="skills-image"
-          />
         </div>
       </div>
     </div>
@@ -33,6 +22,11 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import { Icon } from '@iconify/vue'
 import { skillGroups } from '../data/skills'
+
+const allSkills = computed(() => {
+  return skillGroups.flatMap(group => group.items)
+})
 </script>

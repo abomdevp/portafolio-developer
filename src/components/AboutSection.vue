@@ -1,26 +1,18 @@
 <template>
   <section id="about" class="section">
     <div class="container">
-      <div class="about-box">
-        <div class="section-header">
-          <p class="section-kicker">Un poco de mí</p>
-          <h2 class="section-title">Perfil profesional</h2>
-        </div>
+      <div class="about-content">
 
-        <p class="section-text">
-          Ingeniero informático con enfoque en desarrollo web y construcción de productos
-          digitales. Me interesa crear aplicaciones útiles, bien estructuradas y
-          visualmente cuidadas. He trabajado en proyectos como una App de clima con datos en tiempo real, 
-          una colección de mini apps en Vue, una plataforma de seguimiento de entrenamiento para Valorant 
-          y una calculadora financiera para proyecciones e intereses.
+        <h2 class="section-title">{{ $t('about.title') }}</h2>
+        
+        <p class="about-tagline">
+          {{ $t('about.tagline') }}
         </p>
 
-        <div class="about-image-card">
-          <img
-            src="/gojo.jpg"
-            alt="Imagen decorativa estilo Jujutsu"
-            class="about-image"
-          />
+        <div class="about-paragraphs">
+          <p>{{ $t('about.p1') }}</p>
+          <p>{{ $t('about.p2') }}</p>
+          <p>{{ $t('about.p3') }}</p>
         </div>
       </div>
     </div>

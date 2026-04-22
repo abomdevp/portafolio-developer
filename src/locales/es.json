@@ -1,0 +1,137 @@
+{
+  "navbar": {
+    "about": "Un poco de mí",
+    "projects": "Proyectos",
+    "skills": "Herramientas",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "status": "DISPONIBLE PARA OPORTUNIDADES",
+    "mainTitle": "Construyo soluciones escalables con",
+    "highlightedWord": "tecnología",
+    "afterHighlight": "& diseño",
+    "description": "Ingeniero informático con experiencia en desarrollo web, creación de productos digitales y soluciones tecnológicas. Me apasiona transformar ideas en software funcional, escalable y bien diseñado.",
+    "getInTouch": "Contáctame",
+    "stats": {
+      "projects": {
+        "value": "9+",
+        "label": "Proyectos"
+      },
+      "exp": {
+        "value": "2+",
+        "label": "Años de Exp."
+      },
+      "clients": {
+        "value": "100%",
+        "label": "Compromiso"
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "tagline": "Ingeniero Informático & Desarrollador Full-Stack apasionado por crear tecnología funcional y estética.",
+    "p1": "Soy Francisco González, un Ingeniero Informático enfocado en el desarrollo web y la construcción de productos digitales que resuelven problemas reales. Me especializo en crear aplicaciones escalables, bien estructuradas y con una experiencia de usuario cuidada.",
+    "p2": "He colaborado en diversos proyectos, desde aplicaciones clínicas de alta precisión para unidades críticas hasta plataformas SaaS para la gestión de citas y herramientas de análisis para equipos de esports.",
+    "p3": "Mi objetivo es seguir aprendiendo y aplicando las últimas tecnologías para transformar ideas complejas en software sencillo, potente y elegante."
+  },
+  "projects": {
+    "title": "Proyectos destacados",
+    "labelDescription": "Descripción",
+    "demo": "Demo",
+    "repo": "Repositorio",
+    "viewDetails": "Ver detalles",
+    "objective": "Objetivo",
+    "problemSolved": "Problema Resuelto",
+    "inDevelopment": "En desarrollo"
+  },
+  "projectsData": {
+    "planly": {
+      "title": "Planly SaaS",
+      "description": "Plataforma SaaS para la gestión de reservas y agendamiento de citas.",
+      "role": "Desarrollo Full-Stack de una plataforma integral para profesionales y empresas que requieren gestionar sus calendarios.",
+      "objective": "Automatizar el proceso de reserva de citas, eliminando la necesidad de coordinación manual y reduciendo el ausentismo.",
+      "problemSolved": "Centraliza la disponibilidad de múltiples profesionales, gestiona pagos y envía recordatorios automáticos, resolviendo el caos de la agenda manual."
+    },
+    "valorant": {
+      "title": "Valorant Training Hub (En desarrollo)",
+      "description": "Plataforma para gestión y seguimiento de entrenamiento en equipos de Valorant.",
+      "role": "Desarrollo de plataforma web orientada a coaches y analistas para el seguimiento de métricas de equipo.",
+      "objective": "Proporcionar una herramienta centralizada para que los equipos de esports analicen su rendimiento y planifiquen entrenamientos.",
+      "problemSolved": "Facilita la organización de datos tácticos y estadísticos que antes se manejaban en hojas de cálculo dispersas."
+    },
+    "clima": {
+      "title": "Clima Meteorológica",
+      "description": "Aplicación de clima en tiempo real con datos meteorológicos detallados.",
+      "role": "Desarrollo de aplicación web consumiendo API externa para visualización de datos en tiempo real.",
+      "objective": "Ofrecer información climática precisa y accesible para cualquier ciudad del mundo con una interfaz limpia.",
+      "problemSolved": "Simplifica la visualización de métricas complejas (humedad, viento, presión) en una interfaz amigable para el usuario final."
+    },
+    "mini-apps": {
+      "title": "Mini Aplicaciones Frontend",
+      "description": "Colección de mini aplicaciones interactivas enfocadas en lógica frontend.",
+      "role": "Desarrollo de diversos módulos para resolver problemas específicos mediante interfaces simples.",
+      "objective": "Demostrar habilidades en manipulación del DOM, estado y lógica de negocio en el frontend.",
+      "problemSolved": "Resuelve pequeñas necesidades cotidianas mediante herramientas rápidas y ligeras sin sobrecarga de funciones."
+    },
+    "calculadora-financiera": {
+      "title": "Calculadora Financiera",
+      "description": "Herramienta interactiva para cálculo de intereses y proyecciones financieras.",
+      "role": "Desarrollo de aplicación web para proyecciones económicas orientada a usuarios no técnicos.",
+      "objective": "Ayudar a las personas a entender el impacto del interés compuesto y planificar sus ahorros o inversiones.",
+      "problemSolved": "Hace accesibles cálculos financieros complejos que suelen ser difíciles de realizar manualmente para el público general."
+    },
+    "dva-uci": {
+      "title": "Calculadora Drogas Vasoactivas",
+      "description": "Calculadora clínica para dosificación precisa de drogas en unidades críticas.",
+      "role": "Desarrollo de herramienta de apoyo clínico para decisiones médicas en UCI.",
+      "objective": "Minimizar errores humanos en el cálculo de dosis críticas de medicamentos vasoactivos.",
+      "problemSolved": "Automatiza cálculos complejos basados en peso y dilución, garantizando la seguridad del paciente en entornos de alta presión."
+    }
+  },
+  "skills": {
+    "title": "Tecnologías y herramientas",
+    "subtitle": "Utilizo estas herramientas de nivel profesional para crear experiencias y productos escalables."
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto, una colaboración o una vacante en mente? Me encantaría escucharte.",
+    "tagline": "Hablemos y creemos algo increíble.",
+    "description": "Ya sea que busques un desarrollador comprometido, necesites consultoría técnica o simplemente quieras charlar sobre tecnología, estoy a un mensaje de distancia.",
+    "email": "abomdevp{'@'}gmail.com",
+    "form": {
+      "title": "Envíame un mensaje",
+      "name": "Nombre",
+      "email": "Email",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje",
+      "placeholderName": "Ingresa tu nombre",
+      "placeholderEmail": "Ingresa tu correo",
+      "placeholderSubject": "Asunto",
+      "placeholderMessage": "Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito! Te responderé pronto.",
+      "error": "Hubo un error al enviar. Por favor, inténtalo más tarde."
+    },
+    "socials": {
+      "linkedin": {
+        "name": "LinkedIn",
+        "handle": ""
+      },
+      "github": {
+        "name": "GitHub",
+        "handle": ""
+      },
+      "instagram": {
+        "name": "Instagram",
+        "handle": ""
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Diseño y construyo experiencias digitales escalables.",
+    "linksTitle": "Navegación",
+    "socialsTitle": "Redes",
+    "copyright": "© {year} Francisco González. Todos los derechos reservados."
+  }
+}

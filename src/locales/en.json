@@ -1,0 +1,120 @@
+{
+  "navbar": {
+    "about": "About me",
+    "projects": "Projects",
+    "skills": "Tools",
+    "contact": "Contact"
+  },
+  "hero": {
+    "status": "OPEN TO OPPORTUNITIES",
+    "mainTitle": "Building scalable solutions with",
+    "highlightedWord": "technology",
+    "afterHighlight": "& design",
+    "description": "Full-Stack Developer focused on creating modern interfaces, user experience, and high-impact digital products.",
+    "getInTouch": "Get in Touch",
+    "stats": {
+      "projects": { "value": "12+", "label": "Projects" },
+      "exp": { "value": "2+", "label": "Years of Exp." },
+      "clients": { "value": "100%", "label": "Commitment" }
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "tagline": "Computer Engineer & Full-Stack Developer passionate about creating functional and aesthetic technology.",
+    "p1": "I'm Francisco González, a Computer Engineer focused on web development and building digital products that solve real-world problems. I specialize in creating scalable, well-structured applications with a carefully crafted user experience.",
+    "p2": "I've collaborated on various projects, ranging from high-precision clinical applications for critical units to SaaS platforms for appointment management and analysis tools for esports teams.",
+    "p3": "My goal is to continue learning and applying the latest technologies to transform complex ideas into simple, powerful, and elegant software."
+  },
+  "projects": {
+    "title": "Projects",
+    "labelDescription": "Description",
+    "demo": "Demo",
+    "repo": "Repository",
+    "viewDetails": "View details",
+    "objective": "Objective",
+    "problemSolved": "Problem Solved",
+    "inDevelopment": "In Development"
+  },
+  "projectsData": {
+    "planly": {
+      "title": "Planly SaaS",
+      "description": "SaaS platform for reservation management and appointment scheduling.",
+      "role": "Full-Stack development of a comprehensive platform for professionals and companies needing to manage their calendars.",
+      "objective": "Automate the appointment booking process, eliminating the need for manual coordination and reducing no-shows.",
+      "problemSolved": "Centralizes the availability of multiple professionals, manages payments, and sends automatic reminders, solving manual scheduling chaos."
+    },
+    "valorant": {
+      "title": "Valorant Training Hub (In Development)",
+      "description": "Platform for management and tracking of Valorant team training.",
+      "role": "Web platform development oriented towards coaches and analysts for tracking team metrics.",
+      "objective": "Provide a centralized tool for esports teams to analyze their performance and plan training sessions.",
+      "problemSolved": "Facilitates the organization of tactical and statistical data that was previously handled in scattered spreadsheets."
+    },
+    "clima": {
+      "title": "Weather App",
+      "description": "Real-time weather application with detailed meteorological data.",
+      "role": "Web application development consuming external API for real-time data visualization.",
+      "objective": "Offer accurate and accessible climate information for any city in the world with a clean interface.",
+      "problemSolved": "Simplifies the visualization of complex metrics (humidity, wind, pressure) into a user-friendly interface."
+    },
+    "mini-apps": {
+      "title": "Frontend Mini Applications",
+      "description": "Collection of interactive mini applications focused on frontend logic.",
+      "role": "Development of various modules to solve specific problems through simple interfaces.",
+      "objective": "Demonstrate skills in DOM manipulation, state, and business logic on the frontend.",
+      "problemSolved": "Solves small daily needs through quick and lightweight tools without feature overhead."
+    },
+    "calculadora-financiera": {
+      "title": "Financial Calculator",
+      "description": "Interactive tool for interest calculation and financial projections.",
+      "role": "Web application development for economic projections oriented towards non-technical users.",
+      "objective": "Help people understand the impact of compound interest and plan their savings or investments.",
+      "problemSolved": "Makes complex financial calculations accessible that are usually difficult to perform manually for the general public."
+    },
+    "dva-uci": {
+      "title": "Vasoactive Drug Calculator",
+      "description": "Clinical calculator for precise drug dosing in critical units.",
+      "role": "Clinical support tool development for medical decisions in ICU.",
+      "objective": "Minimize human errors in the calculation of critical doses of vasoactive medications.",
+      "problemSolved": "Automates complex calculations based on weight and dilution, ensuring patient safety in high-pressure environments."
+    }
+  },
+
+  "skills": {
+    "title": "Tech Collaborations",
+    "subtitle": "I use these professional-grade tools to build scalable experiences and products."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a role, partnership, or collaboration in mind? I'd love to hear from you.",
+    "tagline": "Let's connect and create something awesome.",
+    "description": "Whether you're a brand looking for a developer, a company in need of tech expertise, or just want to chat about tech, I'd love to hear from you.",
+    "email": "abomdevp{'@'}gmail.com",
+    "form": {
+      "title": "Send me a message",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "placeholderName": "Your name",
+      "placeholderEmail": "you@example.com",
+      "placeholderSubject": "What's this about?",
+      "placeholderMessage": "Tell me more...",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "error": "There was an error sending the message. Please try again later."
+    },
+    "socials": {
+      "linkedin": { "name": "LinkedIn", "handle": "{'@'}fgonzalezcorrea" },
+      "github": { "name": "GitHub", "handle": "{'@'}abomdevp" },
+      "instagram": { "name": "Instagram", "handle": "{'@'}abom.dev" }
+    }
+  },
+  "footer": {
+    "tagline": "Designing and building scalable digital experiences.",
+    "linksTitle": "Navigation",
+    "socialsTitle": "Socials",
+    "copyright": "© {year} Francisco González. All rights reserved."
+  }
+}

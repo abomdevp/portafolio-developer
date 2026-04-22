@@ -1,40 +1,44 @@
 <template>
   <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-text">
-        <h1>
-          Desarrollador Full-Stack
+    <div class="container">
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="dot"></span>
+          {{ $t('hero.status') }}
+        </div>
+        
+        <h1 class="hero-title">
+          {{ $t('hero.mainTitle') }} 
+          <span class="highlight">{{ $t('hero.highlightedWord') }}</span> 
+          {{ $t('hero.afterHighlight') }}
         </h1>
+
         <p class="hero-description">
-          Desarrollo interfaces modernas orientadas a proyectos
-          reales, experiencia de usuario y escalabilidad.
+          {{ $t('hero.description') }}
         </p>
 
         <div class="hero-buttons">
-          <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
-          <a href="CV-FRANCISCO-ANDRES-GONZALEZ-CORREA-PORTAFOLIO.pdf" class="btn btn-secondary" download>
-            <Download :size="18" />
-            Descargar CV
+          <a href="#contact" class="btn btn-pill btn-dark">
+            {{ $t('hero.getInTouch') }}
+          </a>
+          <a href="#about" class="btn btn-pill btn-outline">
+            {{ $t('navbar.about') }}
           </a>
         </div>
-      </div>
 
-      <div class="hero-card">
-        <div class="hero-badge">
-          <Icon icon="logos:javascript" />
-          <span>JavaScript</span>
-        </div>
-        <div class="hero-badge">
-          <Icon icon="logos:vue" />
-          <span>Vue 3</span>
-        </div>
-        <div class="hero-badge">
-          <Icon icon="logos:supabase-icon" />
-          <span>Supabase</span>
-        </div>
-        <div class="hero-badge">
-          <Icon icon="jam:github" width="24" height="24" />
-          <span>GitHub</span>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-value">{{ $t('hero.stats.projects.value') }}</span>
+            <span class="stat-label">{{ $t('hero.stats.projects.label') }}</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">{{ $t('hero.stats.exp.value') }}</span>
+            <span class="stat-label">{{ $t('hero.stats.exp.label') }}</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">{{ $t('hero.stats.clients.value') }}</span>
+            <span class="stat-label">{{ $t('hero.stats.clients.label') }}</span>
+          </div>
         </div>
       </div>
     </div>
@@ -42,6 +46,5 @@
 </template>
 
 <script setup>
-import { Icon } from '@iconify/vue'
-import { Download } from '@lucide/vue'
+// No extra imports needed for now
 </script>
