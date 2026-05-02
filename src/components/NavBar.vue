@@ -8,7 +8,8 @@
       <div class="nav-right">
         <nav :class="['nav-links', { open: isOpen }]">
           <a href="#about" @click="closeMenu">{{ $t('navbar.about') }}</a>
-          <a href="#projects" @click="closeMenu">{{ $t('navbar.projects') }}</a>
+          <a href="#projects" @click="goToProjects">{{ $t('navbar.projects') }}</a>
+          <a href="#projects" @click="goToCertifications">{{ $t('projects.qualificationsTab') }}</a>
           <a href="#skills" @click="closeMenu">{{ $t('navbar.skills') }}</a>
           <a href="#contact" class="nav-btn-contact" @click="closeMenu">{{ $t('navbar.contact') }}</a>
         </nav>
@@ -46,6 +47,16 @@ const isOpen = ref(false)
 
 const closeMenu = () => {
   isOpen.value = false
+}
+
+const goToCertifications = () => {
+  closeMenu()
+  window.dispatchEvent(new CustomEvent('switch-to-certifications'))
+}
+
+const goToProjects = () => {
+  closeMenu()
+  window.dispatchEvent(new CustomEvent('switch-to-projects'))
 }
 
 const toggleLanguage = () => {

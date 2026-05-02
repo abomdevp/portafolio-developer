@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "about": "Un poco de mí",
+    "about": "Sobre mí",
     "projects": "Proyectos",
     "skills": "Herramientas",
     "contact": "Contacto"
@@ -37,23 +37,38 @@
   "projects": {
     "title": "Proyectos destacados",
     "labelDescription": "Descripción",
-    "demo": "Demo",
-    "repo": "Repositorio",
+    "demo": "Demo en vivo",
+    "repo": "Código",
     "viewDetails": "Ver detalles",
     "objective": "Objetivo",
     "problemSolved": "Problema Resuelto",
-    "inDevelopment": "En desarrollo"
+    "inDevelopment": "En desarrollo",
+    "featuredLabel": "Proyecto Destacado",
+    "moreProjects": "Más proyectos",
+    "backToProjects": "Volver a proyectos",
+    "backToHome": "Volver al inicio",
+    "allProjectsSubtitle": "Una colección completa de mis trabajos y experimentos tecnológicos.",
+    "viewAll": "Ver todos los proyectos",
+    "projectsTab": "Proyectos",
+    "qualificationsTab": "Certificaciones"
   },
   "projectsData": {
     "planly": {
-      "title": "Planly SaaS",
+      "title": "Planly - Plataforma de reservas para profesionales",
       "description": "Plataforma SaaS para la gestión de reservas y agendamiento de citas.",
       "role": "Desarrollo Full-Stack de una plataforma integral para profesionales y empresas que requieren gestionar sus calendarios.",
       "objective": "Automatizar el proceso de reserva de citas, eliminando la necesidad de coordinación manual y reduciendo el ausentismo.",
       "problemSolved": "Centraliza la disponibilidad de múltiples profesionales, gestiona pagos y envía recordatorios automáticos, resolviendo el caos de la agenda manual."
     },
+    "guty-finance": {
+      "title": "Progressive Web App para Transporte",
+      "description": "Aplicación Progresiva para la gestión de finanzas personales y transporte estudiantil.",
+      "role": "Desarrollo integral de una PWA diseñada para el control de gastos diarios y saldo de tarjetas de transporte (Bip!/TNE).",
+      "objective": "Proporcionar una herramienta sencilla y rápida para monitorear finanzas personales sin depender de bancos.",
+      "problemSolved": "Soluciona la falta de control en gastos hormiga y permite proyectar el gasto mensual en transporte de forma automática."
+    },
     "valorant": {
-      "title": "Valorant Training Hub (En desarrollo)",
+      "title": "Plataforma de entrenamiento para equipos de Valorant",
       "description": "Plataforma para gestión y seguimiento de entrenamiento en equipos de Valorant.",
       "role": "Desarrollo de plataforma web orientada a coaches y analistas para el seguimiento de métricas de equipo.",
       "objective": "Proporcionar una herramienta centralizada para que los equipos de esports analicen su rendimiento y planifiquen entrenamientos.",

@@ -33,7 +33,15 @@
     "viewDetails": "View details",
     "objective": "Objective",
     "problemSolved": "Problem Solved",
-    "inDevelopment": "In Development"
+    "inDevelopment": "In Development",
+    "featuredLabel": "Featured Project",
+    "moreProjects": "More Projects",
+    "backToProjects": "Back to Projects",
+    "backToHome": "Back to Home",
+    "allProjectsSubtitle": "A complete collection of my technological works and experiments.",
+    "viewAll": "View All Projects",
+    "projectsTab": "Projects",
+    "qualificationsTab": "Qualifications"
   },
   "projectsData": {
     "planly": {
@@ -42,6 +50,13 @@
       "role": "Full-Stack development of a comprehensive platform for professionals and companies needing to manage their calendars.",
       "objective": "Automate the appointment booking process, eliminating the need for manual coordination and reducing no-shows.",
       "problemSolved": "Centralizes the availability of multiple professionals, manages payments, and sends automatic reminders, solving manual scheduling chaos."
+    },
+    "guty-finance": {
+      "title": "Guty Finance PWA",
+      "description": "Progressive Web App for personal finance and student transport management.",
+      "role": "Full development of a PWA designed for tracking daily expenses and transport card balances (Bip!/TNE).",
+      "objective": "Provide a simple and fast tool to monitor personal finances without depending on banks.",
+      "problemSolved": "Addresses the lack of control over small daily expenses and allows for automatic monthly transport expense projections."
     },
     "valorant": {
       "title": "Valorant Training Hub (In Development)",

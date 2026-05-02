@@ -18,7 +18,7 @@
                 <Icon icon="skill-icons:gmail-light" />
               </div>
               <div class="social-text-v2">
-                <span class="platform">Email</span>
+                <span class="platform">Gmail</span>
               </div>
             </a>
             <a href="https://linkedin.com/in/fgonzalezcorrea" target="_blank" class="social-card-v2">
